@@ -96,7 +96,7 @@ Failed_RDP_With_GEO_CL
 | summarize event_count = sum(EventCount) by Latitude, Longitude, DestinationHost, Username, Sourcehost, State, Country,Label, Timestamp
 | project Latitude, Longitude, DestinationHost, Username, Sourcehost, State, Country, Label, Timestamp
 
-## Step 6: Azure Sentinel Workbook/ World Heat Map Visualization
+## Step 6: Azure Sentinel Workbook/ Honeypot Visualization
 <br></br>
 Finally we will go to Microsoft Sentinel in Azure and create our workbook, this will allow us to visualize our data using KQL.
 ![image](https://github.com/user-attachments/assets/af0d18da-158d-4581-af56-c362759d57a2)
