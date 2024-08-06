@@ -117,7 +117,7 @@ World Attack Map after just 24 hours! Most of the attacks are coming from Indone
 ![image](https://github.com/user-attachments/assets/003a24cd-d57d-49dd-991d-664a8dde5c75)
 
 BONUS:
-I wanted to find out which top 10 usernames are being used to bruteforce this VM. I created another visualization to list that information.
+I wanted to find out which top 10 usernames are being used to bruteforce this VM. I created another visualization to list that information. This was not part of the original plan for this lab however, I figured it would be good information to have.
 <br></br>
 ![image](https://github.com/user-attachments/assets/1e5c85a0-8905-4b2f-bf19-da93ad277065)
 <br></br>
