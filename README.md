@@ -118,7 +118,7 @@ I wanted to find out which top 10 usernames are being used to bruteforce this VM
 ![image](https://github.com/user-attachments/assets/1e5c85a0-8905-4b2f-bf19-da93ad277065)
 <br></br>
 
-Here is the KQL I used to pull that information:
+Here is the KQL query I used to pull that information:
 <br></br>
 Failed_RDP_With_GEO_CL
 | parse RawData with * "latitude:" Latitude ",longitude:" Longitude ",destinationhost:" DestinationHost ",username:" Username ",sourcehost:" Sourcehost ",state:" State ", country:" Country ",label:" Label ",timestamp:" Timestamp 
