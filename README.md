@@ -125,6 +125,23 @@ Failed_RDP_With_GEO_CL
 | summarize Count = count() by Username
 | top 10 by Count desc
 
+Lastly, I wanted to create a chart that shows all 4624, successful auths on the local account I created. I filtered by username, and projected the columns I found most important. This is extremely important as I need to know when there is an authentication as the only authentications should be coming from my public IP address (which they are).
+
+![image](https://github.com/user-attachments/assets/b4d8b5ba-9ea7-41cb-b918-cf7d01d5e479)
+
+Here is a snippet of the KQL query.
+
+SecurityEvent
+| where EventID == 4624
+| where Account contains "honeypotadmin"
+| project TimeGenerated, Account, Computer, Activity, IpAddress, LogonTypeName
+| sort by TimeGenerated desc
+
+Honeypot Visualizations in Sentinel
+<br></br>
+![image](https://github.com/user-attachments/assets/c744aeac-6fa6-40f7-b10c-645738b843b3)
+
+
 <br></br>
 ##  Conclusion
 <br></br>
