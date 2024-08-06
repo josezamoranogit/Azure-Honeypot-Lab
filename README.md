@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/e76c702a-015f-42d5-8ea2-169b0b154c5d)# Azure-Honeypot-Lab
-
 ## Objective
 
 I will be exposing a VM in Azure to the entire internet by modifying the Network Security Group (NSG) to allow all inbound traffic from the internet to the VM. This allows my device to be attacked from the internet. I will use a script on the VM to pull 4624 and 4625 event logs (successful auths and failures on the VM) from the VM and enhance the data utilizing IPGeolocation's API. I will then import the logs from the system in to Log Analytics Workspace where I will parse the raw data and then visualize it in Azure Sentinel Workbooks. Data visualizations are important in a security operations center as they can improve incident response times, provide quick analytics, and may even help make the data more actionable.
