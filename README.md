@@ -114,7 +114,9 @@ World Attack Map after just 24 hours! Most of the attacks are coming from Indone
 
 BONUS:
 I wanted to find out which top 10 usernames are being used to bruteforce this VM. I created another visualization to list that information.
+<br></br>
 ![image](https://github.com/user-attachments/assets/1e5c85a0-8905-4b2f-bf19-da93ad277065)
+<br></br>
 
 Here is the KQL I used to pull that information:
 <br></br>
