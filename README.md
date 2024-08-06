@@ -8,7 +8,7 @@ I will be exposing a VM in Azure to the entire internet by modifying the Network
 <br>*Ref 2: World Heat Map Visualization*</br>
 ![image](https://github.com/user-attachments/assets/003a24cd-d57d-49dd-991d-664a8dde5c75)
 <br></br>
-<br>*Ref 3: Top 10 usernames bruteforced*</br>
+<br>*Ref 3: Top 10 Usernames Attempted*</br>
 ![image](https://github.com/user-attachments/assets/1e5c85a0-8905-4b2f-bf19-da93ad277065)
 <br></br>
 My personal goal with this lab is to gain experience in Azure. Specifically, I wanted to highlight some of my KQL knowledge, which I learned from Microsoft Defender's Advanced Hunting tool. The next thing I wanted to show in this lab is how to interact with an API and use it in a real world scenario to equip security analysts with even more information provided by this API. Lastly, I wanted to get more experience with the cost management side of Azure. I set up budget's as well as alerting which are critical task's when dealing with cloud environments.
