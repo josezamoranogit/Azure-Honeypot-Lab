@@ -138,6 +138,10 @@ Honeypot Visualizations in Sentinel
 <br></br>
 ![image](https://github.com/user-attachments/assets/c744aeac-6fa6-40f7-b10c-645738b843b3)
 
+Honeypot World Map Visualization after 1 week+ 
+![image](https://github.com/user-attachments/assets/3093e9ab-c9dc-4aa2-8c99-7fe2370ae95f)
+
+
 
 <br></br>
 ##  Conclusion
