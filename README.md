@@ -78,7 +78,7 @@ I navigated to Azure Sentinel where I created my Sentinel instance and then adde
 The API that I decided to go with is the IPGeolocation API as it provides longitude/latitude data that is required for the map visualization in Sentinel. It's also one of the most amount of API call's for $15.
 ![image](https://github.com/user-attachments/assets/e015e177-5580-417b-b9f6-6e9047da62b6)
 
-With the help of ChatGPT, I used a powershell script that interacts with IPGeolocation's API, and outputs the information to a log file in "c:\programdata\". The 3 events observed are test events from my hotspot to make sure it can be reached from the internet.
+I used a powershell script that interacts with IPGeolocation's API, and outputs the information to a log file in "c:\programdata\". The 3 events observed are test events from my hotspot to make sure it can be reached from the internet.
 Each entry will look like this: "latitude:$($latitude),longitude:$($longitude),destinationhost:$($destinationHost),username:$($username),sourcehost:$($sourceIp),state:$($state_prov), country:$($country),label:$($country) - $($sourceIp),timestamp:$($timestamp)"
 ![image](https://github.com/user-attachments/assets/b7fcd241-93be-4972-b85b-f15d4e79d496)
 
